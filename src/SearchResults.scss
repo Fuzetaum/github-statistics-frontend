@@ -1,0 +1,43 @@
+#header-synchonization-in-progress {
+  width: 100%;
+  color: #800;
+  text-align: center;
+}
+
+#header-synchonization-done {
+  width: 100%;
+  color: #0A0;
+  text-align: center;
+}
+
+#search-results-empty-container {
+  display: flex;
+  justify-content: center;
+}
+
+#search-results-container {
+  display: flex;
+
+  & .search-results-card {
+    flex: 1;
+    margin: 0 0.5em;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+
+.statistics-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #DDD;
+
+  &>p {
+    margin: 2px 0;
+  }
+}

@@ -1,0 +1,21 @@
+#layout {
+  height: 100%;
+}
+
+#layout-content {
+  padding: 1em;
+  overflow-y: auto;
+}
+
+#search-parameters-card {
+  margin-bottom: 1em;
+}
+
+.search-field-container {
+  flex: 1;
+  margin-right: 1em;
+
+  &>p {
+    margin: 0;
+  }
+}
